@@ -1,0 +1,44 @@
+USE [RetappGenNHibernate]
+GO
+/****** Object:  StoredProcedure [dbo].[Ranking]    Script Date: 12/05/2016 16:24:45 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER  PROCEDURE [dbo].[Ranking] 
+	-- Add the parameters for the stored procedure here
+	@user nvarchar(255)
+AS
+
+BEGIN
+create table #aux(rn int,idret int,votos int)
+create table #ranking(pos int,reto nvarchar(255))
+insert into #aux (rn,idret,votos)
+select distinct row_number() over(order by idParticipacion) as rn,FK_id_idReto, Votos from Participacion where FK_Gaccount_idUsuario_0=@user
+
+
+declare @id int
+declare @votes int
+declare @totalrows int = (select count(*) from #aux)
+declare @currentrow int =0
+
+while @currentrow < @totalrows
+begin
+	set @id =(select idret from #aux where rn =@currentrow)
+	set @votes =(select votos from #aux where rn =@currentrow)
+	insert into #ranking(pos, reto)
+		select count(*) as posicion,Nombre
+		from Participacion join Reto on FK_id_idReto=id
+		where Votos > @votes-1 and FK_id_idReto=@id
+		group by FK_id_idReto,Nombre
+	set @currentrow=@currentrow+1
+END
+
+	select * from #ranking
+	return
+END

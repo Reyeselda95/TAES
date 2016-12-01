@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Retapp</string>
+    <string name="SignInTitle">Sign In</string>
+    <string name="RegisterButton">Register</string>
+    <string name="LoginButton">Login</string>
+    <string name="EmailTextSignIn">Email</string>
+    <string name="PasswordTextSignIn">Password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nombreContactanos">Nombre: Huevos Enterprise</string>
+    <string name="DireccionContactanos">Dirección: Calle falsa 123</string>
+    <string name="TelefonoContactanos">Telefono: 000000001</string>
+    <string name="EmailContactanos">Email: info@huevosenterprise.com</string>
+    <string name="RankingString">RANKING</string>
+    <string name="ConcursoString">Concurso</string>
+    <string name="PosicionString">Posicion</string>
+</resources>

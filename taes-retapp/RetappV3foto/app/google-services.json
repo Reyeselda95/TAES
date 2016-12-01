@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "retapp-e282",
+    "project_number": "392392697065",
+    "name": "Retapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392392697065:android:95d8be267cd113a2",
+        "client_id": "android:huevosenterprise.retappv2",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "huevosenterprise.retappv2",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392392697065-rrcqfovk4l8qef1ketb6ofgs0efs48vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "huevosenterprise.retappv2",
+            "certificate_hash": "9473DF4134DA692804BD2784D774A09381A69A81"
+          }
+        },
+        {
+          "client_id": "392392697065-otsicle6n86kepd6psg9a906qrpm6k0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

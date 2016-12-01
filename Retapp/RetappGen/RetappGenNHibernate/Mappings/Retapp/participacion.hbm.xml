@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="RetappGenNHibernate"
+		                   namespace="RetappGenNHibernate.EN.Retapp">
+		    
+		    
+			
+				<class name="ParticipacionEN" table="Participacion"> 
+				  	
+						<id name="Id" column="idParticipacion" type="integer"> 
+							<generator class="identity"/>
+						</id>
+			
+					
+					<property name="Fecha" type="date"> 
+						<column name="Fecha"  not-null="true"/>
+					</property>
+					<property name="Valor" type="float"> 
+						<column name="Valor"  not-null="true"/>
+					</property>
+					<property name="Prueba" type="string"> 
+						<column name="Prueba" />
+					</property>
+					<property name="Votos" type="integer"> 
+						<column name="Votos"  not-null="true"/>
+					</property>
+					<property name="Reportes" type="integer"> 
+						<column name="Reportes"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="Usuario" table="[participacion_usuario]" lazy="false"  >
+							<key>
+								
+									<column name="FK_idParticipacion_idParticipacionesVotadas"/> 
+							</key>
+      						<many-to-many class="RetappGenNHibernate.EN.Retapp.UsuarioEN">
+									<column name="FK_Gaccount_idUsuario"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<many-to-one name="Usuario_0" class="RetappGenNHibernate.EN.Retapp.UsuarioEN" lazy="false">	
+								<column name="FK_Gaccount_idUsuario_0"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<many-to-one name="Reto" class="RetappGenNHibernate.EN.Retapp.RetoEN" lazy="false" >	
+								<column name="FK_id_idReto"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ParticipacionENReadAllHQL">from ParticipacionEN</query>
+		</hibernate-mapping>
+	

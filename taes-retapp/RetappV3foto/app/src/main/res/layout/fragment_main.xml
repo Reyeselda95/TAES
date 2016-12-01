@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mainfragmentstring"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 1"
+            android:id="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:enabled="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 2"
+            android:id="@+id/button2"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:layout_below="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+            android:layout_alignEnd="@+id/button1"
+            android:enabled="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 3"
+            android:id="@+id/button3"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:layout_below="@+id/button2"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:enabled="false"
+            android:visibility="invisible"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignEnd="@+id/button2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 4"
+            android:id="@+id/button4"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:layout_below="@+id/button3"
+            android:enabled="false"
+            android:visibility="invisible"
+            android:layout_alignRight="@+id/button5"
+            android:layout_alignEnd="@+id/button5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 5"
+            android:id="@+id/button5"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:layout_below="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:enabled="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campaña 6"
+            android:id="@+id/button6"
+            android:minHeight="70dp"
+            android:minWidth="350dp"
+            android:textSize="25sp"
+            android:backgroundTint="#f44308"
+            android:layout_below="@+id/button5"
+            android:enabled="false"
+            android:visibility="invisible"
+            android:layout_alignRight="@+id/button5"
+            android:layout_alignEnd="@+id/button5" />
+    </RelativeLayout>
+</FrameLayout>

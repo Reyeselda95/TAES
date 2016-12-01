@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Retapp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mainfragmentstring">Mainfragment</string>
+    <string name="contactanosstring">Contactanos</string>
+    <string name="rankingString">Ranking</string>
+    <string name="votarString">Votar</string>
+    <string name="perfilString">Perfil</string>
+    <string name="campanyastring">Campanya</string>
+    <string name="logoutstring">LOG OUT</string>
+    <string name="nameuserstringg">Name user</string>
+    <string name="passstring">Password</string>
+    <string name="registring">REGISTER</string>
+    <string name="usestring">User</string>
+    <string name="passwordstring">Password</string>
+    <string name="bloginstring">LOGIN</string>
+    <string name="bregisterstring">REGISTER</string>
+    <string name="stringfoto">imagenperfil</string>
+    <string name="stringjuanito">Nombre: Juanito</string>
+    <string name="strngagent">Nick: Agent 007</string>
+    <string name="stringaficiones">Aficiones: Comer galletas, ver la tele, programar android</string>
+    <string name="stringvotarfoto">viewfotovotar</string>
+    <string name="retostringvotar">Descripcion del reto:</string>
+    <string name="descpvotarstring">Comete una galleta Chips Ajoy de la manera mas original posible y gana tu perso en galletas.</string>
+    <string name="superadostringvotar">SUPERADO</string>
+    <string name="nosuperadostringvotar">NO SUPERADO</string>
+    <string name="cocacolastring">CocaCola FunReto</string>
+    <string name="StringPosicion">Posicion</string>
+    <string name="posicionstingranking">POSICIÓN</string>
+    <string name="retosstring">RETOS</string>
+    <string name="maincocacola">COCA COLA FUN RETO</string>
+    <string name="chipsmain">CHIPS AJOY PESO GALLETAS</string>
+    <string name="title_activity_logingoogle">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="signed_in_fmt">Signed In Success!!</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">Enviar</string>
+</resources>

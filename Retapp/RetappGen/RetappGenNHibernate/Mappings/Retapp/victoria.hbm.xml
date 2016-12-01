@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="RetappGenNHibernate"
+		                   namespace="RetappGenNHibernate.EN.Retapp">
+		    
+		    
+			
+				
+<joined-subclass name="VictoriaEN" extends="RetappGenNHibernate.EN.Retapp.ParticipacionEN" table="Victoria"> 
+	<key>
+    	
+				<column name="idParticipacion"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Pos" type="integer"> 
+						<column name="Pos"  not-null="true"/>
+					</property>
+					<property name="Premio" type="string"> 
+						<column name="Premio"  not-null="true"/>
+					</property>
+			
+			
+			
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="VictoriaENReadAllHQL">from VictoriaEN</query>
+		</hibernate-mapping>
+	

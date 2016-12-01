@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="RetappGenNHibernate"
+		                   namespace="RetappGenNHibernate.EN.Retapp">
+		    
+		    
+			
+				<class name="UsuarioEN" table="Usuario"> 
+						<id name="Gaccount" column="Gaccount"/> 
+			
+					
+					<property name="Tlf" type="integer"> 
+						<column name="Tlf" />
+					</property>
+					<property name="FechaBaneado" type="date"> 
+						<column name="FechaBaneado" />
+					</property>
+					<property name="Nombre" type="string"> 
+						<column name="Nombre" />
+					</property>
+					<property name="NumBaneos" type="integer"> 
+						<column name="NumBaneos" />
+					</property>
+					<property name="Direccion" type="string"> 
+						<column name="Direccion" />
+					</property>
+					<property name="Baneado" type="boolean"> 
+						<column name="Baneado"  not-null="true"/>
+					</property>
+					<property name="Votos" type="integer"> 
+						<column name="Votos"  not-null="true"/>
+					</property>
+					<property name="Karma" type="float"> 
+						<column name="Karma"  not-null="true"/>
+					</property>
+					<property name="CodPstal" type="integer"> 
+						<column name="CodPstal" />
+					</property>
+					<property name="FechaLogin" type="date"> 
+						<column name="FechaLogin" />
+					</property>
+					<property name="Password" type="string"> 
+						<column name="Password"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="ParticipacionesVotadas" table="[participacion_usuario]" inverse="true" >
+							<key>
+								
+									<column name="FK_Gaccount_idUsuario"/> 
+							</key>
+      						<many-to-many class="RetappGenNHibernate.EN.Retapp.ParticipacionEN">
+									<column name="FK_idParticipacion_idParticipacionesVotadas"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<bag name="ParticipacionesEnviadas" >
+							<key>
+							
+								
+								<column name="FK_Gaccount_idUsuario_0"/>
+					      	</key>
+							<one-to-many class="RetappGenNHibernate.EN.Retapp.ParticipacionEN"/>
+					    </bag>
+					
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
+		</hibernate-mapping>
+	

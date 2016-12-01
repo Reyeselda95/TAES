@@ -1,0 +1,12 @@
+Como usuario quiero poder registrarme en la aplicación para poder hacer uso de esta
+Como usuario quiero poder hacer mis propias rutas
+Como usuario quiero poder compartir las rutas que he hecho para que otros usuarios las valoren y puedan hacerlas
+Como usuario quiero poder ver las rutas que publican otros usuarios para valorarlas, comentarlas y hacerlas
+Como usuario quiero poder ver mis estadisticas recientes para ver mi mejora a lo largo del tiempo
+Como usuario quiero poder ver mis estadisticas en vivo mientras corro
+Como usuario quiero poder ver mi posición en el ranking global y amigos para sentirme orgulloso
+Como usuario quiero poder comparar mis estadisticas con mis amigos y el resto de usuarios para ver mi diferencia con ellos
+Como usuario quiero poder modificar mi perfil para mostrar mi información de perfil
+Como usuario quiero decidir que parte de mi información de perfil es pública
+Como usuario quiero poder publicar las rutas en redes sociales para que mis amigos las vean
+Como desarrollador quiero que las contraseñas estén cifradas para cumplir la ley de protección de datos

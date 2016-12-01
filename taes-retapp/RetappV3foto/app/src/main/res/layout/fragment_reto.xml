@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="RetappFragments.RetoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/tvTitulo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvCuerpo"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/tvTitulo"
+            android:layout_alignLeft="@+id/tvTitulo"
+            android:layout_alignStart="@+id/tvTitulo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivReto"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBIR IMAGEN"
+            android:id="@+id/bsubirimagen"
+            android:background="@drawable/buttonshape"
+            android:minHeight="70dp"
+            android:minWidth="120dp"
+            android:layout_alignTop="@+id/btakephoto"
+            android:layout_toLeftOf="@+id/tvCuerpo"
+            android:layout_toStartOf="@+id/tvCuerpo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHOTO"
+            android:id="@+id/btakephoto"
+            android:background="@drawable/buttonshape"
+            android:minWidth="120dp"
+            android:minHeight="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tvCuerpo"
+            android:layout_toEndOf="@+id/tvCuerpo"
+            android:layout_marginBottom="39dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal|top"
+            android:src="@mipmap/ic_launcher"
+            android:minWidth="150dp"
+            android:minHeight="150dp"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/tvCuerpo"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

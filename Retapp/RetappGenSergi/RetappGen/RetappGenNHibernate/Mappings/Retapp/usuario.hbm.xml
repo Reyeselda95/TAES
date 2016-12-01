@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="RetappGenNHibernate"
+		                   namespace="RetappGenNHibernate.EN.Retapp">
+		    
+		    
+			
+				<class name="UsuarioEN" table="Usuario"> 
+				  	
+						<id name="Id" column="idUsuario" type="integer"> 
+							<generator class="identity"/>
+						</id>
+			
+					
+					<property name="Gaccount" type="string"> 
+						<column name="Gaccount"  not-null="true"/>
+					</property>
+					<property name="Tlf" type="integer"> 
+						<column name="Tlf"  not-null="true"/>
+					</property>
+					<property name="FechaBaneado" type="date"> 
+						<column name="FechaBaneado"  not-null="true"/>
+					</property>
+					<property name="Nombre" type="string"> 
+						<column name="Nombre"  not-null="true"/>
+					</property>
+					<property name="NumBaneos" type="integer"> 
+						<column name="NumBaneos"  not-null="true"/>
+					</property>
+					<property name="Direccion" type="string"> 
+						<column name="Direccion"  not-null="true"/>
+					</property>
+					<property name="Baneado" type="boolean"> 
+						<column name="Baneado"  not-null="true"/>
+					</property>
+					<property name="Votos" type="integer"> 
+						<column name="Votos"  not-null="true"/>
+					</property>
+					<property name="Karma" type="float"> 
+						<column name="Karma"  not-null="true"/>
+					</property>
+					<property name="CodPstal" type="integer"> 
+						<column name="CodPstal"  not-null="true"/>
+					</property>
+					<property name="FechaLogin" type="date"> 
+						<column name="FechaLogin"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<bag name="Victoria" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idUsuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="RetappGenNHibernate.EN.Retapp.VictoriaEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="ParticipacionesVotadas" >
+							<key>
+							
+								
+								<column name="FK_idUsuario_idUsuario"/>
+					      	</key>
+							<one-to-many class="RetappGenNHibernate.EN.Retapp.ParticipacionEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="ParticipacionesEnviadas" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idUsuario_idUsuario_0"/>
+					      	</key>
+							<one-to-many class="RetappGenNHibernate.EN.Retapp.ParticipacionEN"/>
+					    </bag>
+					
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="UsuarioENReadAllHQL">from UsuarioEN</query>
+		</hibernate-mapping>
+	

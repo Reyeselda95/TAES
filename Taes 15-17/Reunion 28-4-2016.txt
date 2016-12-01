@@ -1,0 +1,11 @@
+Get ________/Usuarios/
+Post________/Usuarios/
+Post________/login/
+
+****Estadisticas bbdd****
+Utilizar base de datos no relacional --> MongoDB (NoSQL)
+
+
+Ranking de cada Ruta
+
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="RetappGenNHibernate"
+		                   namespace="RetappGenNHibernate.EN.Retapp">
+		    
+		    
+			
+				<class name="ConcursoEN" table="Concurso"> 
+				  	
+						<id name="Id" column="idConcurso" type="integer"> 
+							<generator class="identity"/>
+						</id>
+			
+					
+					<property name="FechaFin" type="date"> 
+						<column name="FechaFin"  not-null="true"/>
+					</property>
+					<property name="Aprobado" type="boolean"> 
+						<column name="Aprobado"  not-null="true"/>
+					</property>
+					<property name="Finalizado" type="boolean"> 
+						<column name="Finalizado"  not-null="true"/>
+					</property>
+					<property name="FraseCaracteristica" type="string"> 
+						<column name="FraseCaracteristica"  not-null="true"/>
+					</property>
+					<property name="Cuerpo" type="string"> 
+						<column name="Cuerpo"  not-null="true"/>
+					</property>
+					<property name="Premios" type="string"> 
+						<column name="Premios"  not-null="true"/>
+					</property>
+					<property name="Pos" type="integer"> 
+						<column name="Pos"  not-null="true"/>
+					</property>
+					<property name="FechaInicio" type="date"> 
+						<column name="FechaInicio"  not-null="true"/>
+					</property>
+					<property name="Imagen" type="string"> 
+						<column name="Imagen"  not-null="true"/>
+					</property>
+					<property name="Compañia" type="string"> 
+						<column name="Compañia"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<bag name="Retos" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idConcurso_idConcurso"/>
+					      	</key>
+							<one-to-many class="RetappGenNHibernate.EN.Retapp.RetoEN"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ConcursoENReadAllHQL">from ConcursoEN</query>
+		</hibernate-mapping>
+	

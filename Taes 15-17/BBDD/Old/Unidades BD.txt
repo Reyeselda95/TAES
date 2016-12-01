@@ -1,0 +1,33 @@
+--Usuario
+Nombre 20
+Usuario 20
+Correo 50
+Ciudad 30
+Pais 30
+Password 20
+
+--Amigo
+Usuario 20
+UsrAmigo 20
+
+--Red Social
+Nombre 20
+User 20
+Pass 20
+
+--Valoracion
+Usuario 20
+Ruta 50
+Comentario 300
+
+--Ruta
+Nombre 50
+Ciudad 30
+Distancia 6digitos (999999m)
+Tiempo 5digitos (99999s)
+Calorais 5digitos (99999Cal)
+Velocidad 2digitos,1decimal (99,9m/s)
+
+--Salidas
+Descripcion 300
+Tiempo 5digitos

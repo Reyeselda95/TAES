@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="huevosenterprise.retappv2.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bloginstring"
+            android:textColor="#FF0000"
+            android:shadowDx="3"
+            android:shadowDy="-1"
+            android:shadowRadius="0"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/bLogin"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:maxWidth="250dp"
+            android:maxLength="250"
+            android:textSize="30dp"
+            android:layout_below="@+id/editText5"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignStart="@+id/editText5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bregisterstring"
+            android:textColor="#FF0000"
+            android:shadowColor="#1C0D1B"
+            android:shadowDx="3"
+            android:shadowDy="-1"
+            android:shadowRadius="0"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/bRegister"
+            android:minWidth="150dp"
+            android:maxWidth="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@mipmap/ic_launcher"
+            android:minWidth="200dp"
+            android:minHeight="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RETAPP"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fe0505"
+            android:textSize="40dp"
+            android:typeface="monospace" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCodpos"
+            android:hint="USERNAME"
+            android:background="@drawable/logintextborder"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_alignRight="@+id/bLogin"
+            android:layout_alignEnd="@+id/bLogin" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:hint="PASSWORD"
+            android:background="@drawable/logintextborder"
+            android:layout_below="@+id/etCodpos"
+            android:layout_alignLeft="@+id/bRegister"
+            android:layout_alignStart="@+id/bRegister"
+            android:layout_alignRight="@+id/bRegister"
+            android:layout_alignEnd="@+id/bRegister" />
+
+    </RelativeLayout>
+</RelativeLayout>

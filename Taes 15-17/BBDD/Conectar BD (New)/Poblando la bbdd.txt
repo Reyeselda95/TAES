@@ -1,0 +1,147 @@
+-- Registramos todos los usuarios primero y les damos rankings
+
+call Registrarse('carlos24','carlosps@gmail.com','abcdef');
+call PerfilSinPassCorreo('Carlos Perez Soria','carlos24','Alicante','España',18,181,75,"",1);
+call NuevoRanker('carlos24',140);
+
+call Registrarse('stephen','steph@gmail.com','abcdef');
+call PerfilSinPassCorreo('Stephen Curry','stephen','Akron','Estados Unidos',28,191,86,"",1);
+call NuevoRanker('stephen',122);
+
+call Registrarse('maria90','maria@gmail.com','abcdef');
+call PerfilSinPassCorreo('Maria Hernandez','maria90','Alicante','España',26,163,53,"",0);
+call NuevoRanker('maria90',80);
+
+call Registrarse('lola14','lolita14@hotmail.com','abcdef');
+call PerfilSinPassCorreo('Lola Garcia','lola14','Barcelona','España',16,155,45,"",0);
+call NuevoRanker('lola14',155);
+
+call Registrarse('guti','guti@gmail.com','abcdef');
+call PerfilSinPassCorreo('Jose Guitierez','guti','Madrid','España',34,189,87,"",1);
+call NuevoRanker('guti',30);
+
+call Registrarse('leo25','leo@gmail.com','abcdef');
+call PerfilSinPassCorreo('Leandro Lopez','leo25','Cuenca','España',29,190,90,"",1);
+call NuevoRanker('leo25',280);
+
+call Registrarse('guapa22','noa@gmail.com','abcdef');
+call PerfilSinPassCorreo('Noa Sanchez','guapa22','Valencia','España',22,167,55,"",0);
+call NuevoRanker('guapa22',250);
+
+call Registrarse('tamara96','tami@gmail.com','abcdef');
+call PerfilSinPassCorreo('Tamara Terron','tamara96','Torrevieja','España',25,165,53,"",0);
+call NuevoRanker('tamara96',80);
+
+call Registrarse('luis','luisito@gmail.com','abcdef');
+call PerfilSinPassCorreo('Luis Carlos','luis','Torrevieja','España',27,173,71,"",1);
+call NuevoRanker('luis',75);
+
+call Registrarse('pascu008','pascu@gmail.com','abcdef');
+call PerfilSinPassCorreo('Pascual Moreno','pascu008','Tarragona','España',35,175,75,"",1);
+call NuevoRanker('pascu008',88);
+
+call Registrarse('JorgiRunner','jorgi@gmail.com','abcdef');
+call PerfilSinPassCorreo('Jorge Verdu','JorgiRunner','Alicante','España',24,180,81,"",1);
+call NuevoRanker('JorgiRunner',122);
+
+call Registrarse('JoseM','costa@gmail.com','abcdef');
+call PerfilSinPassCorreo('Jorge Maria Costa','JoseM','Murcia','España',22,181,75,"",1);
+call NuevoRanker('JoseM',133);
+
+call Registrarse('thiago11','thiago@gmail.com','abcdef');
+call PerfilSinPassCorreo('Thiago Alcantara','thiago11','Castellon','España',25,172,75,"",1);
+call NuevoRanker('thiago11',146);
+
+call Registrarse('manu','manuel@gmail.com','abcdef');
+call PerfilSinPassCorreo('Manuel Vazquez','manu','Toledo','España',26,170,73,"",1);
+call NuevoRanker('manu',177);
+
+call Registrarse('antoan','anto91@gmail.com','abcdef');
+call PerfilSinPassCorreo('Antonio Banderas','antoan','Paris','Francia',37,180,83,"",1);
+call NuevoRanker('antoan',224);
+
+call Registrarse('DaniRunBoy','dani94@gmail.com','abcdef');
+call PerfilSinPassCorreo('Dani Monera','DaniRunBoy','Novelda','España',27,177,73,"",1);
+call NuevoRanker('DaniRunBoy',114);
+
+call Registrarse('albert','albertito@gmail.com','abcdef');
+call PerfilSinPassCorreo('Alberto Santana','albert','Roma','Italia',29,172,68,"",1);
+call NuevoRanker('albert',140);
+
+call Registrarse('choto','victor@gmail.com','abcdef');
+call PerfilSinPassCorreo('Victor Lopez','choto','Benidorm','España',24,184,79,"",1);
+call NuevoRanker('choto',95);
+
+call Registrarse('chapa','aaron@gmail.com','abcdef');
+call PerfilSinPassCorreo('Aaron Martinez','chapa','Dolores','España',25,177,78,"",1);
+call NuevoRanker('chapa',81);
+
+call Registrarse('Confi','fran991@gmail.com','abcdef');
+call PerfilSinPassCorreo('Francisco Garcia','Confi','Aspe','España',51,181,80,"",1);
+call NuevoRanker('Confi',41);
+
+call Registrarse('juanMA','juan88@gmail.com','abcdef');
+call PerfilSinPassCorreo('Juan Martinez','juanMA','Calpe','España',26,183,75,"",1);
+call NuevoRanker('juanMA',20);
+
+call Registrarse('susi','susi@gmail.com','abcdef');
+call PerfilSinPassCorreo('Susana Alvarez','susi','Madrid','España',23,176,59,"",0);
+call NuevoRanker('susi',14);
+
+call Registrarse('belen','maria1993@gmail.com','abcdef');
+call PerfilSinPassCorreo('Belen Suarez','belen','San Vicente','España',23,162,50,"",0);
+
+
+call Registrarse('belen','maria1993@gmail.com','abcdef');
+call NuevoRanker('belen',279);
+
+call Registrarse('mongui','marianoGH@gmail.com','abcdef');
+call PerfilSinPassCorreo('Mariano Vidal','mongui','Huesca','España',28,179,101,"",1);
+
+call Registrarse('chispica','angel@gmail.com','abcdef');
+call PerfilSinPassCorreo('Angel Alonso','chispica','Venecia','Italia',40,170,80,"",1);
+call NuevoRanker('chispica',215);
+
+
+
+
+
+-- -----------------------------------------------------------------------------------------------------------------
+-- Ahora los hacemos amigos entre ellos
+
+call NuevoAmigo('carlos24','guti');
+call NuevoAmigo('stephen','susi');
+call NuevoAmigo('juanMA','Confi');
+call NuevoAmigo('choto','albert');
+call NuevoAmigo('antoan','DaniRunBoy');
+call NuevoAmigo('thiago11','manu');
+call NuevoAmigo('JoseM','JorgiRunner');
+call NuevoAmigo('pascu008','luis');
+call NuevoAmigo('tamara96','guapa22');
+call NuevoAmigo('leo25','guti');
+call NuevoAmigo('mongui','chispica');
+call NuevoAmigo('susi','chapa');
+call NuevoAmigo('luis','antoan');
+
+-- USUARIO: albert/abcdef NO TIENE AMIGOS PARA PRUEBAS
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+-- AÑADIMOS RUTA
+call InsertarRuta('alicanteplaya','Alicante',16,31,'carlos24','alicanteplaya');
+
+-- RECORRER RUTA, ESTOS USUARIOS LA RECORREN
+call RecorrerRuta('carlos24','alicanteplaya',3500);
+
+-- CREAMOS VALORACIONES
+call crearValoracion('carlos24','alicanteplaya','Esta ruta es la mejor para salir a correr por la playa',5);
+
+
+call InsertarRuta('monfortealicante','Monforte',7,40,'admin','46.101.84.36/rutas/kml/monfortealicante');
+
+call InsertarRuta('sanjuan','San Juan de Alicante',4,25,'jorgest7','46.101.84.36/rutas/kml/sanjuan');
+
+call InsertarRuta('sierraaitana','Siera Aitana',3,18,'leo25','46.101.84.36/rutas/kml/sierraaitana');
+
+call InsertarRuta('universidadalicante','San Vicente del Raspaig',5,30,'leo25','46.101.84.36/rutas/kml/universidadalicante');

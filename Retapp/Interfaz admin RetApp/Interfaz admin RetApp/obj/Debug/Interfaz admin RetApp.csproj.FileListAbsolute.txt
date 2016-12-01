@@ -1,0 +1,58 @@
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.exe.config
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Administracion.resources
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Login.resources
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Properties.Resources.resources
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Campaña.resources
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.csproj.GenerateResource.Cache
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\hibernate.cfg.xml
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.exe
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.pdb
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Iesi.Collections.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\log4net.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\nunit.core.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\nunit.framework.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernate.dll
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernate.pdb
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.exe
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.pdb
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.Designer.cs
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xsc
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xsd
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xss
+C:\Users\Alejandro\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Reto.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.exe.config
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.Designer.cs
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xsc
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xsd
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernateDataSet1.xss
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\hibernate.cfg.xml
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.exe
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Interfaz admin RetApp.pdb
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\Iesi.Collections.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\log4net.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\NHibernate.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\nunit.core.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\nunit.framework.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernate.dll
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\bin\Debug\RetappGenNHibernate.pdb
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.csprojResolveAssemblyReference.cache
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Administracion.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Login.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Properties.Resources.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Campaña.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz_admin_RetApp.Reto.resources
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.csproj.GenerateResource.Cache
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.exe
+C:\Users\Antonio\Source\Repos\Retapp\Interfaz admin RetApp\Interfaz admin RetApp\obj\Debug\Interfaz admin RetApp.pdb

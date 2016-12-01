@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RetappV2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mainfragmentstring">Mainfragment</string>
+    <string name="contactanosstring">Contactanos</string>
+    <string name="rankingString">Ranking</string>
+    <string name="votarString">Votar</string>
+    <string name="perfilString">Perfil</string>
+</resources>

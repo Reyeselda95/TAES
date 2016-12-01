@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Retapp_Web_Interface.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title></title>
+    
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <h1>
+        &nbsp;
+            <img src="/App_Data/ic_launcher.png" />
+            RetApp Server Administration</h1>
+    
+        <asp:ContentPlaceHolder ID="head" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
